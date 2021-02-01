@@ -1,0 +1,6 @@
+print("Автоматическое вычисление по формуле n + nn + nnn = x")
+num = (input("Введите число n: "))
+chislo1 = int(num)
+chislo2 = int(num + num)
+chislo3 = int(num + num + num)
+print("x равно", chislo1 + chislo2 + chislo3)
